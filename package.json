@@ -10,6 +10,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router": "^5.2.0",
+<<<<<<< HEAD
+=======
+    "react-router-dom": "^5.2.0",
+>>>>>>> e3f7552d052f1065bce6f07007f92d509b32daa1
     "react-scripts": "3.4.3",
     "tailwindcss": "^1.8.10"
   },

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { render } from "@testing-library/react";
 import React from "react";
 import Card from "./components/Card";
@@ -74,3 +75,26 @@ ReactDOM.render(
   </Router>,
   document.getElementById("app")
 );
+=======
+import React from 'react';
+import {Header, Card} from './components/Header'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from 'react-router-dom'
+
+function App() {
+  return (
+    <Router>
+      <Route path="/" component={Card}/>
+      <Route path="/about" component={Header}/>
+    </Router>
+  );
+}
+
+export default App;
+>>>>>>> e3f7552d052f1065bce6f07007f92d509b32daa1
