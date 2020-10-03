@@ -1,21 +1,13 @@
 import React from 'react'
 
-class Header extends React.Component {
+class Card extends React.Component {
     render() {
         return (
-            <div className="max-w-sm rounded overflow-hidden shadoq-lg">
-            <img className="" src={require('../assets/IMG_4114.jpg')} alt="Display" />
-            <div className="">
-              <div className="">
-                Aqlan Nor Azman
-              </div>
-              <p className="">
-                Weeeee<span></span>😜
-              </p>
-            </div>
+          <div class="px-8 py-12">
+            Hi
           </div>
         )
     }
 }
 
-export default Header
+export default Card

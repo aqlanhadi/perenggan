@@ -1,11 +1,20 @@
 import React from 'react';
-import Card from './components/Card'
+import {Header, Card} from './components/Header'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <Card />
-    </div>
+    <Router>
+      <Route path="/" component={Card}/>
+      <Route path="/about" component={Header}/>
+    </Router>
   );
 }
 
