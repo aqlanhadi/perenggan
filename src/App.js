@@ -14,6 +14,8 @@ function App() {
     <Router>
       <Route path="/" component={Card}/>
       <Route path="/about" component={Header}/>
+      <Route path="/about2" component={Header}/>
+      <Route path="/about3" component={Header}/>
     </Router>
   );
 }
